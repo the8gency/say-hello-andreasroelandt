@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppinsregular';
+}
+
+h1 {
+    margin: 3rem 0;
+    margin-bottom: 1rem;
+}
+
+.width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontalcenter {
+    justify-content: center;
+}
+
+.img {
+    background: url('../images/andreas.jpg');
+    background-repeat: no-repeat;
+    width: 14.5rem;
+    height: 14.5rem;
+    background-size: cover;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.flexgrow {
+    flex: 1;
+}
+
+.textcolor-white {
+    color: #FFF;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.borderbox {
+    box-sizing: border-box;
+}
+
+.margintopzero {
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.background-green {
+    background: #40E0D0;
+}
+
+.header_margin-p {
+    margin: 0.5rem;
+}
+
+.header_div-width {
+    width: 20rem;
+}
+
+.header_text-andreas {
+    font-size: 1.4rem;
+    padding-top: 13.2rem;
+    margin: 0;
+}
+
+.header_block {
+    padding: 1rem;
+    font-size: 1rem;
+    align-content: center;
+}
+
+.header_block-left {
+    justify-content: flex-end;
+}
+
+.header_blockright-p {
+    width: 100%;
+}
+
+.header_blockleft {
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.main_background-gray {
+    background: #f4f4f4;
+    padding-bottom: 1rem;
+}
+
+.main_block-width {
+    width: 50%;
+}
+
+.main_block-padding {
+    padding: 1rem;
+}
+
+.main_text-blue {
+    color: #2A85CB;
+}
+
+.main_talenkennis {
+    padding-right: 2rem;
+}
+
+.main_studies-year {
+    padding-right: 1.2rem;
+}
+
+.main_studies-city {
+    padding-right: 2.1rem;
+}
+
+.main_studies-school {
+    padding-right: 1.7rem;
+}
